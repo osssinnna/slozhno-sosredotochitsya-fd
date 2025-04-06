@@ -1,8 +1,4 @@
 :root.theme-dark {
-
-  --main-font-family: "IBM Plex mono";
-  --main-font-size: 18px;
-  --main-line-height: 23.4px;
   --bg-color: #000028;
   --main-text-color: #F1B2CE;
   --bg-main-image: url("../images/cover-image-dark.png");
