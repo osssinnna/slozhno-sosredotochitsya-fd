@@ -323,7 +323,7 @@
   .content__section-focus-distractions {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 70px 1fr;
+    grid-template-rows: auto 1fr;
     gap: 20px;
   }
 
@@ -376,7 +376,7 @@
   }
 
   .footer__title {
-    font-size: 120px;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }
 
